@@ -1,0 +1,5 @@
+n=int(raw_input("write a number"))
+number=1
+while number in range(n):
+	print number
+
