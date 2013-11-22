@@ -1,0 +1,18 @@
+database={}
+
+def addToDictionary(key, value):
+	update={key:value}
+	database.update(update)
+
+i=0
+
+while i < 3:
+	name=raw_input("name? ")
+	age=raw_input("age? ")
+	addToDictionary(name, age)
+	
+	i += 1
+
+#a=raw_input("what is your name")
+#b=raw_input("how old are you")
+

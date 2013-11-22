@@ -1,0 +1,3 @@
+a=raw_input("what is your name")
+b=raw_input("how old are you")
+
