@@ -5,5 +5,6 @@ def palindrome()
 	print true
 	else:
 	print false
+
 palindrome()
 	
